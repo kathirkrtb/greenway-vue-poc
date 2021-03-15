@@ -1,0 +1,38 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@meforma/vue-toaster": "^1.2.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.9.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "vee-validate": "^4.0.0-alpha.14",
+    "vue": "^3.0.6",
+    "vue-bootstrap-toasts": "^1.0.7",
+    "vue-router": "^4.0.4",
+    "vue-toast-notification": "^0.6.1",
+    "vuelidate": "^0.7.6",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.11",
+    "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "@vue/compiler-sfc": "^3.0.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^8.0.2",
+    "vue-loader-v16": "^16.0.0-beta.5.4"
+  }
+}
